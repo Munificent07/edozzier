@@ -2,72 +2,265 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    /* background-color: rgb(0,0,56); */
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color:  rgb(0,0,56);
-
-
+    background-color: rgb(0,0,56); 
+    color: white;
+    
 }
 nav{
     display: flex;
-    
-    padding: 10px 50px;
+    padding: 15px 70px;
     justify-content: space-between;
     align-items: center;
-    position:sticky;
-    top: 10px;
-    margin-top: 20px;
-    color: white;
+    position:fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    background-color:  rgb(0,0,56);;
 }
+
 .nav-ul{
-    
-    list-style:  none;
-    padding: 10px 50px;
+    margin-right: 350px;
 }
 .nav-ul li{
     display: inline-flex;
     padding: 10px 30px;
 }
-.nav-p{
-    display: inline-block;
-    size: 60px;
-    margin-right: 40px;}
-    .div1{
-        display: block;
-        /* position:relative; */
-        /* background-color:  rgb(0,0,56) */
-        margin-top: 200px;
-        color: white;
-    }
-.sch{
-    /* position: absolute; */
-    text-align: center;
-    font-size:50px ;
-    word-spacing: 10px;
+.edozzier-image{
+    margin-left: 400px;
 }
-.div1 img{
-    /* position: absolute; */
-    margin-top: 150px;
-    /* left: 580px; */
-    margin-left: 350px;
-   
-}
-.div1 img:hover{
-     transform: translate(15px, 20px);
-     transition: 0.7s;
-}
-.div1 button{
-     /* position: absolute; */
-     /* left: 840px; */
-     font-size: x-large;
-    align-items: center;
-    background-color: orange;
+.header-div{
+    margin-top: 0px;
     color: white;
-    padding: 15px 40px;
-    font-weight: 100;
-    /* margin-top:40px; */
-    border-radius: 50px;
+    margin: 60px 0px 45px 0px;
+    text-align: center;
+}
+.header-div-p{
+    padding-top: 30px;
+    color:#e08229;
+    font-weight:bold ;
+    padding-bottom: 30px;
+}
+.header-div-h1{
+    font-size:60px ;
+    font-weight: bold;
+    padding-bottom:5px;
+}
+.header-div-p2{
+    padding:40px 0px 20px 0px;
+}
+.header-div button{
+    padding: 20px;
+    border-radius: 30px;
+    background-color: ;
+    margin-bottom: 60px;
+    background-color: #e08229;
+}
+.transform-image:hover{
+    transform:translateY(10px);
+    transition:0.2s;
 
+}
+
+/* The Main content of the pqge begins here */
+
+
+section >*{
+    align-items: center;
+}
+
+
+.section1-h1{
+    text-align: center;
+    margin:30px 0px;
+    line-break: auto;
+    font-size: xx-large;
+}
+.section1-p{
+    text-align: center;
+    margin: 40px 0px;
+    font-weight: 200;
+}
+
+.section2{
+    display:flex;
+    max-width: max-content;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+    margin-left:400px;
+    margin-top:150px;
+    margin-bottom: 100px;
+}
+.section2-card1{
+    max-width:620px;
+    padding: 5px;
+    flex: 1;
+
+}
+
+.section2-card1-img{
+    border-radius:30px;
+    padding-left: 5px;
+}
+.section2-card2,.section2-card3 {
+    max-width: 300px;
+    flex: 1;
+    
+}
+
+
+.section2-card2 ul li{
+    list-style-position: inside;
+    margin-bottom:20px;
+    list-style: none;
+}
+.section2-card2,.section-2card3  li{
+    font-size: large;
+}
+.section2-card3  li{
+    list-style: none;
+    margin-bottom:25px;
+    font-size:17px;
+    
+}
+.special{
+    padding-bottom:60px;
+}
+
+.first-button{
+    font-weight:200;
+    font-size:20px ;
+    color: white;
+    background-color: rgb(3, 34, 44);
+    padding:10px 25px;
+    border-radius: 40px;
+    border: 2px solid rgb(131, 90, 15);
+}
+
+/* Another section with only Text */
+
+
+.text-container{
+    display: flex;
+    gap:115px;
+    flex-wrap:nowrap;
+    max-width:max-content;
+    max-height:max-content;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-left: 400px;
+    margin-bottom: 0px;
+}
+
+.text1{
+    max-width:330px;
+    align-self:flex-start;
+    margin-top: 20px;
+    flex: 1;
+}
+.text2{
+    max-width:720px;
+    align-self: baseline;
+    flex: 1;
+    margin-top: 30px;
+
+}
+.text2 p{
+    font-weight: 200;
+    font-weight:550;
+    line-height:25px;
+}
+
+/* Another div container is here */
+
+
+.phototext{
+    display: flex;
+    gap:60px;
+    max-width:max-content;
+    max-height:max-content ;
+    justify-content: flex-start;
+    margin-left: 400px;
+    margin-bottom:100px;
+}
+
+.phototext-item1{
+    max-width: 552px;
+    flex: 1;
+    align-items:start;
+    margin: 0px 0px 35px ;
+}
+
+.phototext-item2{
+    max-width: 552px;
+    flex: 1;
+    align-items: flex-start;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.phototext-item1 img{
+    border-radius: 40px;
+    border-color: #e08229;
+    justify-content:left;
+}
+
+.phototext-item2-h1{
+    padding:15px;
+}
+
+.h1{
+    font-size: xx-large;
+    line-height:45px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+.phototext-item2 p {
+    font-weight: bold;
+    line-height:25px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+
+
+
+/* A new section with Many cards */
+
+.card-section{
+    background-color: #000016;
+}
+.card-container{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width:1165px;
+    min-height:400px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 400px;
+
+}
+
+.block{
+    margin-left: 400px;
+    max-width: 1165px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+#block1{
+    padding: 25px;
+}
+
+.grid{
+    min-width:150px;
+    min-height: 100px;
+    flex: 1;
+    align-self: flex-start;
+    color: white;
 }
